@@ -6,7 +6,7 @@ public class StringHelper {
 		if(str.length()<=2)	
 		return str.replaceAll("A", "");
 		String first2Chars=str.substring(0, 4);
-String stringMinusFirst2Chars=str.substring(2);
+String stringMinusFirst2Chars=str.substring(3);
 return first2Chars.replaceAll("A","") + stringMinusFirst2Chars;
 	}
 
